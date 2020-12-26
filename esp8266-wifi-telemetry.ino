@@ -18,7 +18,7 @@ typedef struct {
 } Measurement;
 
 const int max_measurements = 1000;
-const int min_measurements_per_batch = 5;
+const int min_measurements_per_batch = 1;
 
 CircularBuffer<Measurement, max_measurements> measurements;
 
